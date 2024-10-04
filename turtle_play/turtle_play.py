@@ -7,7 +7,9 @@
 # File Test : Verified on Python 3.12.6
 # Comments  : The program contains few methods to draw and play with the Python Turtle library.
 #             Refer to Turtle documentation here: https://docs.python.org/3/library/turtle.html.
-#             You might have to build Python with tcl-tk GUI options to run the code.
+#             You might have to build Python with tcl-tk GUI options to run the code. Steps to 
+#             install Python interface to Tcl-Tk GUI toolkit on Mac OS (Apple Silicon) has been
+#             included in README.md file.
 #
 # All Rights Reserved.
 ################################################
