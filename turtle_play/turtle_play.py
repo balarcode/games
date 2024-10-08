@@ -1,8 +1,8 @@
 ################################################
 # Title     : Draw and Play with Turtle
 # Author    : balarcode
-# Version   : 1.0
-# Date      : 3rd October 2024
+# Version   : 1.1
+# Date      : 8th October 2024
 # File Type : Python Script / Program
 # File Test : Verified on Python 3.12.6
 # Comments  : The program contains few methods to draw and play with the Python Turtle library.
@@ -51,9 +51,9 @@ time.sleep(2)
 turtle.clearscreen()
 
 ################################################
-# Draw a Turtle with its shape stamped on the screen
+# Draw a hexagon with Turtle shape stamped on the screen
 ################################################
-turtle.title("Welcome to Turtle Draw and Play! - Drawing a turtle with turtle shape stamped on the screen")
+turtle.title("Welcome to Turtle Draw and Play! - Drawing a hexagon with turtle shape stamped on the screen")
 bluey = turtle.Turtle()
 bluey.shape("turtle")
 bluey.color("blue")
@@ -65,6 +65,46 @@ for _ in range(12):
     bluey.forward(distance)
     bluey.stamp()
     bluey.left(angle)
+
+time.sleep(2)
+turtle.clearscreen()
+
+################################################
+# Draw a circle of Turtle shapes
+################################################
+turtle.title("Welcome to Turtle Draw and Play! - Drawing a circle of turtle shapes")
+tom = turtle.Turtle()
+tom.shape("turtle")
+tom.color("green")
+tom.speed(2)
+tom.penup()
+angle = 36
+distance = 100
+for size in range(10):
+    tom.forward(distance)
+    tom.stamp()
+    tom.forward(-distance)
+    tom.right(angle)
+
+time.sleep(2)
+turtle.clearscreen()
+
+################################################
+# Draw an outward spiral of Turtle shapes
+################################################
+turtle.title("Welcome to Turtle Draw and Play! - Drawing an outward spiral of turtle shapes")
+spiral = turtle.Turtle()
+spiral.color("orange")
+spiral.shape("turtle")
+spiral.speed(2)
+spiral.up()
+angle = 24
+distance = 5
+for _ in range(30):
+    spiral.stamp()
+    spiral.forward(distance)
+    spiral.right(angle)
+    distance += 2
 
 time.sleep(2)
 turtle.clearscreen()
