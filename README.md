@@ -4,7 +4,7 @@ Practical implementation of few of the interesting games that can be played afte
 
 ## Installation
 
-#### Steps to install Python interface to Tcl-Tk GUI toolkit on Mac OS (Apple Silicon)
+Steps to install Python interface to Tcl-Tk GUI toolkit on Mac OS (Apple Silicon).
 
 #### Install tcl-tk toolkit via BREW
 ```
@@ -17,7 +17,7 @@ brew install pyenv
 ```
 
 #### Include the following lines in .bash_profile (assuming that the shell is set to BASH)
-##### NOTE: 8.6.15 is the version of installed tcl-tk toolkit.
+NOTE: 8.6.15 is the version of installed tcl-tk toolkit.
 ```
 export PYENV_ROOT="$HOME/.pyenv"
 ```
@@ -62,7 +62,7 @@ python -m pip install tk
 ```
 
 #### Use the following command to test if tkinter has been installed correctly and Python is configured to work with tcl-tk toolkit
-##### NOTE: If the installation was successful, the command will open a new GUI window with 'tk' as the title and display the tck-tk version.
+NOTE: If the installation was successful, the command will open a new GUI window with 'tk' as the title and display the tck-tk version.
 ```
 python -m tkinter -c "tkinter._test()"
 ```
