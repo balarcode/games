@@ -1,6 +1,6 @@
 # games
 
-This repository contains practical implementation of few of the interesting games that can be played after compiling the standalone source code files.
+Practical implementation of few of the interesting games that can be played after compiling the standalone source code files.
 
 ## Installation
 
