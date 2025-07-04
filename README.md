@@ -2,6 +2,16 @@
 
 Practical implementation of few of the interesting games that can be played after compiling the standalone source code files.
 
+## Topics
+
+### [Play with Turtle](https://github.com/balarcode/games/tree/main/turtle_play)
+
+### [Wheel of Fortune Game](https://github.com/balarcode/games/tree/main/wheel_of_fortune)
+
+### [Wordle Game](https://github.com/balarcode/games/tree/main/wordle)
+
+###
+
 ## Installation
 
 Steps to install Python interface to Tcl-Tk GUI toolkit on Mac OS (Apple Silicon).
